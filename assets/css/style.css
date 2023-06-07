@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300;700&family=Roboto:wght@400;700&display=swap');
+
+h1,
+h2,
+p,
+h3,
+button {
+    font-family: 'Kulim Park', sans-serif;
+}
+
+body {
+    background-image: url("../img/fond.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    margin: 50px 50px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 20px 20px;
+    margin-left: 40px;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 10px 20px;
+    margin-left: 40px;
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 0 40px 20px 40px;
+    height: 200px;
+}
+
+figure {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+}
+
+figure img {
+    width: 70px;
+    margin: auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.pp {
+    width: 90%;
+    margin: 50px 10px;
+    height: 200px;
+}
+
+.join {
+    background-color: #203D22;
+    padding: 50px 50px;
+    color: #ffff;
+    width: 100%;
+    margin: 0;
+}
+
+.join a button {
+    background-color: #203D22;
+    color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 800;
+
+}
+
+.join a button:hover {
+    background-color: #ffff;
+    color: #203D22;
+    transition: 1s;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form div input {
+    margin: 15px 15px;
+    padding: 10px;
+}
+
+form div label {
+    font-size: 1.2rem;
+}
+
+#cv {
+    margin-bottom: 15px;
+}
+
+#valider {
+    padding: 10px;
+    background-color: #203D22;
+    color: #ffff;
+    font-size: 1.1rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#valider:hover {
+    background-color: #fff;
+    color: #203D22;
+    border: 1px solid #203D22;
+    transition: 1s;
+}
+
+@media only screen and (min-width: 1000px) {
+    section {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 20px 0 20px;
+    }
+    article{
+        width: 25%;
+        margin: 20px;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+}
